@@ -6,7 +6,6 @@
  */
 'use strict';
 exports.handler = (event, context, cb) => {
-  let svc =  (event.pathParameters || {}).svc || false;
   console.log('Index Start');
   console.log('event.body:');
   console.log(event.body);
